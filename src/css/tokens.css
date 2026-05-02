@@ -1,0 +1,13 @@
+/* Breakpoints (WordPress core defaults) */
+@custom-media --below-bp-mobile (max-width: 599px);
+@custom-media --below-bp-tablet (max-width: 781px);
+@custom-media --below-bp-desktop (max-width: 1023px);
+@custom-media --above-bp-mobile (min-width: 600px);
+@custom-media --above-bp-tablet (min-width: 782px);
+@custom-media --above-bp-desktop (min-width: 1024px);
+
+:root {
+    --octave--radius-small: 2px;
+    --octave--radius-medium: 4px;
+    --octave--radius-large: 8px;
+}
