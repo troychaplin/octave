@@ -79,19 +79,19 @@ The current palette is **misaligned** with the concept. Reconcile:
 
 | Concept token | Current `theme.json` slug | Status |
 |---|---|---|
-| `--oc-bg` `#f6f3ee` | `custom-neutral-pale` `#f9f7f3` | Close but slightly off |
-| `--oc-bg-alt` `#efeae2` | `custom-neutral-light` `#efeae2` | Matches |
-| `--oc-paper` `#ffffff` | `custom-white` `#ffffff` | Matches |
-| `--oc-ink` `#15140f` | `custom-black` `#1e1b15` | Drift — concept is darker and warmer |
-| `--oc-ink-2` `#3a382f` | `custom-grey-dark` `#3a382f` | Matches |
-| `--oc-ink-3` `#6e6a5e` | (missing) | Add as `custom-grey` (currently `#815e4d`, wrong) |
-| `--oc-rule` `rgba(21,20,15,0.14)` | (missing) | Add. Currently approximated by `custom-neutral` `#e0d6c8` |
-| `--oc-accent` `#7a3b2e` | `custom-accent` `#7a3b2e` | Matches |
+| `--oc-bg` `#f6f3ee` | `neutral-pale` `#f9f7f3` | Close but slightly off |
+| `--oc-bg-alt` `#efeae2` | `neutral-light` `#efeae2` | Matches |
+| `--oc-paper` `#ffffff` | `white` `#ffffff` | Matches |
+| `--oc-ink` `#15140f` | `black` `#1e1b15` | Drift — concept is darker and warmer |
+| `--oc-ink-2` `#3a382f` | `grey-dark` `#3a382f` | Matches |
+| `--oc-ink-3` `#6e6a5e` | (missing) | Add as `grey` (currently `#815e4d`, wrong) |
+| `--oc-rule` `rgba(21,20,15,0.14)` | (missing) | Add. Currently approximated by `neutral` `#e0d6c8` |
+| `--oc-accent` `#7a3b2e` | `accent` `#7a3b2e` | Matches |
 | `--oc-accent-2` `#5a2a1f` | (missing) | Add for hover/pressed |
 | `--oc-espresso` `#2a2017` | (missing) | Add — required for dark bands |
 | `--oc-espresso-2` `#1d1611` | (missing) | Add |
 
-`custom-black-5` and `custom-white-65` in the current palette have no concept equivalent — likely safe to drop unless a pattern needs them.
+`black-5` and `white-65` in the current palette have no concept equivalent — likely safe to drop unless a pattern needs them.
 
 ---
 
@@ -512,7 +512,7 @@ For when porting CSS rules from concepts to the theme:
 
 | `tokens.css` var | `theme.json` preset (target) |
 |---|---|
-| `var(--oc-bg)` | `var(--wp--preset--color--bg)` *(rename custom-neutral-pale → bg)* |
+| `var(--oc-bg)` | `var(--wp--preset--color--bg)` *(rename neutral-pale → bg)* |
 | `var(--oc-bg-alt)` | `var(--wp--preset--color--bg-alt)` |
 | `var(--oc-paper)` | `var(--wp--preset--color--paper)` |
 | `var(--oc-ink)` | `var(--wp--preset--color--ink)` |
@@ -530,4 +530,4 @@ For when porting CSS rules from concepts to the theme:
 | `var(--wp-content)` | `theme.json settings.layout.contentSize` |
 | `var(--wp-wide)` | `theme.json settings.layout.wideSize` |
 
-Renaming the palette slugs to semantic names (`ink`, `bg`, `accent`) instead of `custom-black`, `custom-neutral-pale`, etc., will make the theme far more readable and make porting CSS one-to-one. The current `custom-*` prefix is a leftover convention worth dropping when reconciling.
+Renaming the palette slugs to semantic names (`ink`, `bg`, `accent`) instead of `black`, `neutral-pale`, etc., will make the theme far more readable and make porting CSS one-to-one. The current `custom-*` prefix is a leftover convention worth dropping when reconciling.

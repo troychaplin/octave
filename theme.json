@@ -13,52 +13,42 @@
 				{
 					"color": "#f9f7f3",
 					"name": "Neutral Pale",
-					"slug": "custom-neutral-pale"
+					"slug": "neutral-pale"
 				},
 				{
 					"color": "#efeae2",
 					"name": "Neutral Light",
-					"slug": "custom-neutral-light"
-				},
-				{
-					"color": "#e0d6c8",
-					"name": "Neutral",
-					"slug": "custom-neutral"
+					"slug": "neutral-light"
 				},
 				{
 					"color": "#d8d5cf",
 					"name": "Grey",
-					"slug": "custom-grey"
+					"slug": "grey"
 				},
 				{
 					"color": "#3a382f",
 					"name": "Grey Dark",
-					"slug": "custom-grey-dark"
+					"slug": "grey-dark"
 				},
 				{
 					"color": "#1e1b15",
 					"name": "Black",
-					"slug": "custom-black"
+					"slug": "black"
 				},
 				{
 					"color": "#7a3b2e",
 					"name": "Accent",
-					"slug": "custom-accent"
+					"slug": "accent"
 				},
 				{
 					"color": "#ffffff",
 					"name": "White",
-					"slug": "custom-white"
+					"slug": "white"
 				},
 				{
 					"color": "#1e1b150d",
 					"name": "Black 5%",
-					"slug": "custom-black-5"
-				},
-				{
-					"color": "#ffffffa6",
-					"name": "White 65%",
-					"slug": "custom-white-65"
+					"slug": "black-5"
 				}
 			]
 		},
@@ -327,21 +317,21 @@
 			"core/button": {
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--custom-accent)",
-						"text": "var(--wp--preset--color--custom-white)"
+						"background": "var(--wp--preset--color--accent)",
+						"text": "var(--wp--preset--color--white)"
 					}
 				},
 				"border": {
 					"radius": "0px"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--custom-grey-dark)",
-					"text": "var(--wp--preset--color--custom-white)"
+					"background": "var(--wp--preset--color--grey-dark)",
+					"text": "var(--wp--preset--color--white)"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var(--wp--preset--color--custom-white)"
+							"text": "var(--wp--preset--color--white)"
 						}
 					}
 				},
@@ -364,40 +354,40 @@
 					"outline": {
 						":hover": {
 							"border": {
-								"color": "var(--wp--preset--color--custom-accent)"
+								"color": "var(--wp--preset--color--accent)"
 							},
 							"color": {
-								"background": "var(--wp--preset--color--custom-grey-dark)",
-								"text": "var(--wp--preset--color--custom-white)"
+								"background": "var(--wp--preset--color--grey-dark)",
+								"text": "var(--wp--preset--color--white)"
 							}
 						},
 						"border": {
-							"color": "var(--wp--preset--color--custom-grey-dark)",
+							"color": "var(--wp--preset--color--grey-dark)",
 							"radius": "0px",
 							"style": "solid",
 							"width": "1px"
 						},
 						"color": {
-							"text": "var(--wp--preset--color--custom-grey-dark)"
+							"text": "var(--wp--preset--color--grey-dark)"
 						}
 					}
 				}
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--custom-neutral-pale)",
-			"text": "var(--wp--preset--color--custom-black)"
+			"background": "var(--wp--preset--color--neutral-pale)",
+			"text": "var(--wp--preset--color--black)"
 		},
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--color--custom-black)",
-					"text": "var(--wp--preset--color--custom-white)"
+					"background": "var(--wp--preset--color--black)",
+					"text": "var(--wp--preset--color--white)"
 				}
 			},
 			"caption": {
 				"color": {
-					"text": "var(--wp--preset--color--custom-grey-dark)"
+					"text": "var(--wp--preset--color--grey-dark)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--jetbrains-mono)",
@@ -450,7 +440,7 @@
 			},
 			"heading": {
 				"color": {
-					"text": "var(--wp--preset--color--custom-black)"
+					"text": "var(--wp--preset--color--black)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--inter-tight)",
@@ -460,11 +450,11 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--custom-accent)"
+						"text": "var(--wp--preset--color--accent)"
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--custom-accent)"
+					"text": "var(--wp--preset--color--accent)"
 				}
 			}
 		},
