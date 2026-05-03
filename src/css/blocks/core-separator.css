@@ -1,0 +1,4 @@
+.wp-block-separator {
+    /* border: 1px solid var(--wp--preset--color--grey); */
+    border-top: 12px solid;
+}

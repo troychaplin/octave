@@ -40,7 +40,7 @@ class Enqueues {
 		$version = file_exists( $path ) ? filemtime( $path ) : wp_get_theme()->get( 'Version' );
 
 		wp_enqueue_style(
-			'idocs-styles',
+			'octave-styles',
 			get_theme_file_uri( 'assets/css/styles.css' ),
 			array(),
 			$version
@@ -56,7 +56,7 @@ class Enqueues {
 
 		if ( file_exists( $path ) ) {
 			wp_enqueue_script(
-				'idocs-script',
+				'octave-script',
 				get_theme_file_uri( 'assets/js/script.js' ),
 				array(),
 				$version,
@@ -79,10 +79,10 @@ class Enqueues {
 			wp_enqueue_block_style(
 				$block_name,
 				array(
-					'handle' => 'idocs-block-' . $filename,
+					'handle' => 'octave-block-' . $filename,
 					'src'    => get_theme_file_uri( 'assets/css/blocks/' . $filename . '.css' ),
 					'path'   => $file,
-					'deps'   => array( 'idocs-main' ),
+					'deps'   => array( 'octave-main' ),
 					'ver'    => $version,
 				)
 			);
@@ -98,7 +98,7 @@ class Enqueues {
 
 		if ( file_exists( $path ) ) {
 			wp_enqueue_script(
-				'idocs-editor',
+				'octave-editor',
 				get_theme_file_uri( 'assets/js/editor.js' ),
 				array( 'wp-blocks', 'wp-dom-ready', 'wp-element', 'wp-server-side-render' ),
 				$version,
