@@ -18,6 +18,9 @@ node_modules/
 # Release directory
 wp-release/
 
+# Remove when done
+_concepts
+
 # Optional npm cache directory
 .npm
 
