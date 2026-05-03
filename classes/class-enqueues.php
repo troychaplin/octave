@@ -30,6 +30,11 @@ class Enqueues {
 		add_theme_support( 'editor-styles' );
 		add_editor_style( 'assets/css/styles.css' );
 		add_editor_style( 'assets/css/editor.css' );
+
+		$blocks_dir = get_theme_file_path( 'assets/css/blocks' );
+		foreach ( glob( $blocks_dir . '/*.css' ) ?: array() as $file ) {
+			add_editor_style( 'assets/css/blocks/' . basename( $file ) );
+		}
 	}
 
 	/**
@@ -82,7 +87,7 @@ class Enqueues {
 					'handle' => 'octave-block-' . $filename,
 					'src'    => get_theme_file_uri( 'assets/css/blocks/' . $filename . '.css' ),
 					'path'   => $file,
-					'deps'   => array( 'octave-main' ),
+					'deps'   => array( 'octave-styles' ),
 					'ver'    => $version,
 				)
 			);
