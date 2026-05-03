@@ -1,6 +1,6 @@
 /* Baseline Styles */
-@import './css/tokens.css';
-@import './css/base.css';
+@import './css/utils/tokens.css';
+@import './css/utils/typography.css';
 
 /* Template Parts */
 /* @import './css/parts/footer.css'; */
