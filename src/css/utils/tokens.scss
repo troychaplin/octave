@@ -1,12 +1,18 @@
 /* Breakpoints (WordPress core defaults) */
 @custom-media --below-bp-mobile (max-width: 599px);
-@custom-media --below-bp-tablet (max-width: 781px);
+@custom-media --below-bp-tablet (max-width: 767px);
 @custom-media --below-bp-desktop (max-width: 1023px);
 @custom-media --above-bp-mobile (min-width: 600px);
-@custom-media --above-bp-tablet (min-width: 782px);
+@custom-media --above-bp-tablet (min-width: 768px);
 @custom-media --above-bp-desktop (min-width: 1024px);
 
 :root {
+    /* Content Widths */
+    --octave--width-medium-size: 896px;
+    --octave--width-content-size: var(--wp--style--global--content-size);
+    --octave--width-wide-size: var(--wp--style--global--wide-size);
+    
+    /* Border radius */
     --octave--radius-small: 2px;
     --octave--radius-medium: 4px;
     --octave--radius-large: 8px;
