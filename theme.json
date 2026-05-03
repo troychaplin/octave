@@ -130,6 +130,45 @@
 					"fontFamily": "\"Inter Tight\", sans-serif",
 					"name": "Inter Tight",
 					"slug": "inter-tight"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-600-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Source Serif 4\", serif",
+					"name": "Source Serif 4",
+					"slug": "source-serif-4"
 				}
 			]
 		},
@@ -216,9 +255,10 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--inter-tight)",
+			"fontFamily": "var(--wp--preset--font-family--source-serif-4)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
-			"fontWeight": "200"
+			"fontWeight": "300"
 		}
 	},
 	"templateParts": [
