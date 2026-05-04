@@ -21,9 +21,19 @@
 					"slug": "neutral-light"
 				},
 				{
+					"color": "#815e4d",
+					"name": "Neutral Dark",
+					"slug": "neutral-dark"
+				},
+				{
 					"color": "#d8d5cf",
 					"name": "Grey",
 					"slug": "grey"
+				},
+				{
+					"color": "#5a584b",
+					"name": "Grey Medium",
+					"slug": "grey-medium"
 				},
 				{
 					"color": "#3a382f",
