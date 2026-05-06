@@ -17,7 +17,9 @@
     "start": "pnpm run --parallel /^start:/"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild"]
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   },
   "devDependencies": {
     "cssnano": "^7.1.7",
@@ -25,6 +27,7 @@
     "postcss": "^8.5.10",
     "postcss-cli": "^11.0.1",
     "postcss-custom-media": "^12.0.1",
-    "postcss-import": "^16.1.1"
+    "postcss-import": "^16.1.1",
+    "postcss-nested": "^7.0.2"
   }
 }
