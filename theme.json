@@ -16,9 +16,19 @@
 					"slug": "neutral-pale"
 				},
 				{
+					"color": "#f2f0ea",
+					"name": "Neutral Lighter",
+					"slug": "neutral-lighter"
+				},
+				{
 					"color": "#efeae2",
 					"name": "Neutral Light",
 					"slug": "neutral-light"
+				},
+				{
+					"color": "#e0d6c8",
+					"name": "Neutral",
+					"slug": "neutral"
 				},
 				{
 					"color": "#815e4d",
@@ -46,7 +56,8 @@
 					"slug": "black"
 				},
 				{
-					"color": "#7a3b2e",
+					"alt-color": "#ca2135",
+					"color": "#A34F3E",
 					"name": "Accent",
 					"slug": "accent"
 				},
@@ -64,59 +75,69 @@
 		},
 		"layout": {
 			"contentSize": "768px",
-			"wideSize": "1280px"
+			"wideSize": "1152px"
 		},
 		"spacing": {
 			"spacingSizes": [
 				{
+					"name": "3x Small",
+					"size": "0.175rem",
+					"slug": "10"
+				},
+				{
 					"name": "2x Small",
 					"size": "0.25rem",
-					"slug": "10"
+					"slug": "20"
 				},
 				{
 					"name": "X Small",
 					"size": "0.5rem",
-					"slug": "20"
-				},
-				{
-					"name": "Small",
-					"size": "1rem",
 					"slug": "30"
 				},
 				{
-					"name": "Medium",
-					"size": "1.5rem",
+					"name": "Small",
+					"size": "min(0.75rem, 1vw)",
 					"slug": "40"
 				},
 				{
-					"name": "Large",
-					"size": "2rem",
+					"name": "Body",
+					"size": "min(1rem, 1vw)",
 					"slug": "50"
 				},
 				{
-					"name": "X Large",
-					"size": "clamp(2rem, 4vw, 3rem)",
+					"name": "Medium",
+					"size": "min(1.25rem, 1.5vw)",
 					"slug": "60"
 				},
 				{
-					"name": "2x Large",
-					"size": "clamp(2.5rem, 5.33vw, 4rem)",
+					"name": "Large",
+					"size": "min(1.5rem, 2vw)",
 					"slug": "70"
 				},
 				{
-					"name": "3x Large",
-					"size": "clamp(3rem, 8vw, 6rem)",
+					"name": "X Large",
+					"size": "min(2rem, 2.5vw)",
 					"slug": "80"
 				},
 				{
-					"name": "4x Large",
-					"size": "clamp(4rem, 10.67vw, 8rem)",
+					"name": "2x Large",
+					"size": "min(2.5rem, 3vw)",
 					"slug": "90"
 				},
 				{
-					"name": "5x Large",
-					"size": "clamp(5rem, 13.33vw, 10rem)",
+					"name": "3x Large",
+					"size": "min(3rem, 3.5vw)",
 					"slug": "100"
+				},
+				{
+					"name": "4x Large",
+					"size": "min(4rem, 4.5vw)",
+					"slug": "110"
+				},
+				{
+					"name": "5x Large",
+					"size": "min(5rem, 5.5vw)",
+					"slug": "120"
 				}
 			]
 		},
@@ -505,7 +526,8 @@
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
 			"fontWeight": "300",
-			"lineHeight": "1.55"
+			"letterSpacing": "-0.25px",
+			"lineHeight": "1.6"
 		}
 	},
 	"templateParts": [
