@@ -496,6 +496,24 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
+			"core/post-time-to-read": {
+				"color": {
+					"text": "var(--wp--preset--color--grey-medium)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--grey-medium)"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter-tight)",
+					"fontSize": "var(--wp--preset--font-size--x-small)",
+					"fontStyle": "normal",
+					"fontWeight": "300"
+				}
+			},
 			"core/separator": {
 				"color": {
 					"background": "var(--wp--preset--color--grey)"
