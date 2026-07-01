@@ -242,26 +242,26 @@
 			"fontSizes": [
 				{
 					"fluid": {
-						"max": "0.75rem",
+						"max": "0.725rem",
 						"min": "0.6875rem"
 					},
 					"name": "2X Small",
-					"size": "0.75rem",
+					"size": "0.725rem",
 					"slug": "2x-small"
 				},
 				{
 					"fluid": {
-						"max": "0.875rem",
-						"min": "0.8125rem"
+						"max": "0.8125rem",
+						"min": "0.7125rem"
 					},
 					"name": "X Small",
-					"size": "0.875rem",
+					"size": "0.8125rem",
 					"slug": "x-small"
 				},
 				{
 					"fluid": {
 						"max": "1rem",
-						"min": "0.875rem"
+						"min": "0.9375rem"
 					},
 					"name": "Small",
 					"size": "1rem",
@@ -269,17 +269,17 @@
 				},
 				{
 					"fluid": {
-						"max": "1.25rem",
-						"min": "1rem"
+						"max": "1.2rem",
+						"min": "0.95rem"
 					},
 					"name": "Medium",
-					"size": "1.25rem",
+					"size": "1.1275rem",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
 						"max": "1.5rem",
-						"min": "1.15rem"
+						"min": "1.25rem"
 					},
 					"name": "Large",
 					"size": "1.5rem",
@@ -287,56 +287,56 @@
 				},
 				{
 					"fluid": {
-						"max": "2rem",
-						"min": "1.4375rem"
+						"max": "1.9375rem",
+						"min": "1.625rem"
 					},
 					"name": "X Large",
-					"size": "2rem",
+					"size": "1.9375rem",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"max": "2.6875rem",
-						"min": "1.75rem"
+						"max": "2.5rem",
+						"min": "2rem"
 					},
 					"name": "2X Large",
-					"size": "2.6875rem",
+					"size": "2.5rem",
 					"slug": "2-x-large"
 				},
 				{
 					"fluid": {
-						"max": "3.5625rem",
-						"min": "2.0625rem"
+						"max": "3.25rem",
+						"min": "2.5rem"
 					},
 					"name": "3X Large",
-					"size": "3.5625rem",
+					"size": "3.25rem",
 					"slug": "3-x-large"
 				},
 				{
 					"fluid": {
-						"max": "4.75rem",
-						"min": "2.5rem"
+						"max": "4.25rem",
+						"min": "2.75rem"
 					},
 					"name": "4X Large",
-					"size": "4.75rem",
+					"size": "4.25rem",
 					"slug": "4-x-large"
 				},
 				{
 					"fluid": {
-						"max": "6.3125rem",
-						"min": "3rem"
+						"max": "5.5rem",
+						"min": "3.5rem"
 					},
 					"name": "5X Large",
-					"size": "6.3125rem",
+					"size": "5.5rem",
 					"slug": "5-x-large"
 				},
 				{
 					"fluid": {
-						"max": "8.4375rem",
-						"min": "3.5625rem"
+						"max": "7.5rem",
+						"min": "4rem"
 					},
 					"name": "Hero",
-					"size": "8.4375rem",
+					"size": "7.5rem",
 					"slug": "hero"
 				}
 			]
