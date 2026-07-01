@@ -1,0 +1,7 @@
+.wp-block-post-terms a {
+    text-decoration: none;
+}
+
+.wp-block-post-terms a:hover {
+    text-decoration: underline;
+}
