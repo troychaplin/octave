@@ -410,6 +410,40 @@
 					}
 				}
 			},
+			"core/post-author-name": {
+				"color": {
+					"text": "var(--wp--preset--color--grey-medium)"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--accent)"
+							}
+						},
+						"color": {
+							"text": "var(--wp--preset--color--grey-medium)"
+						}
+					}
+				}
+			},
+			"core/post-date": {
+				"color": {
+					"text": "var(--wp--preset--color--grey-medium)"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--accent)"
+							}
+						},
+						"color": {
+							"text": "var(--wp--preset--color--grey-medium)"
+						}
+					}
+				}
+			},
 			"core/post-featured-image": {
 				"border": {
 					"radius": {
