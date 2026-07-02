@@ -16,6 +16,7 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 // Instantiate our modules.
 $octave_modules = array(
 	new Octave\Enqueues(),
+	new Octave\Post_Types(),
 );
 
 foreach ( $octave_modules as $octave_module ) {

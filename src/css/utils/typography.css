@@ -25,7 +25,15 @@
 	margin-block-start: var(--wp--preset--spacing--30);
 }
 
-main.entry-content p a {
-    font-weight: 500;
+main.entry-content p a,
+main.entry-content ul a,
+main.entry-content ol a {
+    font-weight: 600;
     text-decoration: none;
+}
+
+main.entry-content p a:hover,
+main.entry-content ul a:hover,
+main.entry-content ol a:hover {
+    text-decoration: underline;
 }
