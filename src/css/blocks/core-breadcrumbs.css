@@ -1,0 +1,7 @@
+.wp-block-breadcrumbs a {
+    text-decoration: none;
+}
+
+.wp-block-breadcrumbs a:hover {
+    text-decoration: underline;
+}

@@ -3,9 +3,9 @@
 @custom-media --below-bp-tablet (max-width: 767px);
 @custom-media --below-bp-desktop (max-width: 1023px);
 
-/* @custom-media --above-bp-mobile (min-width: 600px);
+@custom-media --above-bp-mobile (min-width: 600px);
 @custom-media --above-bp-tablet (min-width: 768px);
-@custom-media --above-bp-desktop (min-width: 1024px); */
+@custom-media --above-bp-desktop (min-width: 1024px);
 
 :root {
     /* Content Widths */
