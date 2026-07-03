@@ -17,6 +17,7 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 $octave_modules = array(
 	new Octave\Enqueues(),
 	new Octave\Post_Types(),
+	new Octave\PaginationCount(),
 );
 
 foreach ( $octave_modules as $octave_module ) {

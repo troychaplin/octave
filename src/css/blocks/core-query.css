@@ -77,3 +77,38 @@
         }
     }
 }
+
+.wp-block-query .wp-block-query-pagination-numbers .page-numbers {
+    text-decoration: none;
+    padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);
+    border: 1px solid var(--wp--preset--color--grey);
+    margin-right: var(--wp--preset--spacing--10);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.wp-block-query .wp-block-query-pagination-numbers a.page-numbers:hover {
+    color: var(--wp--preset--color--white);
+    background-color: var(--wp--preset--color--accent);
+    border: 1px solid var(--wp--preset--color--accent);
+}
+
+.wp-block-query .wp-block-query-pagination-numbers span.page-numbers:not(.dots) {
+    color: var(--wp--preset--color--white);
+    background-color: var(--wp--preset--color--black);
+    border: 1px solid var(--wp--preset--color--black);
+}
+
+.wp-block-query .wp-block-query-pagination-numbers span.page-numbers.dots {
+    padding-left: var(--wp--preset--spacing--20);
+    padding-right: var(--wp--preset--spacing--20);
+    border: none;
+}
+
+@media (--below-bp-mobile) {
+    .wp-block-octave-pagination-count {
+        display: none;
+    }
+}
