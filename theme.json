@@ -310,7 +310,7 @@
 				{
 					"fluid": {
 						"max": "1.5rem",
-						"min": "1.15rem"
+						"min": "1rem"
 					},
 					"name": "Large",
 					"size": "1.5rem",
@@ -354,11 +354,11 @@
 				},
 				{
 					"fluid": {
-						"max": "6.3125rem",
-						"min": "3rem"
+						"max": "5.7125rem",
+						"min": "2.375rem"
 					},
 					"name": "5X Large",
-					"size": "6.3125rem",
+					"size": "5.7125rem",
 					"slug": "5-x-large"
 				},
 				{
