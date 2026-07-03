@@ -1,28 +1,32 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"header","metadata":{"name":"Post Header","categories":["idocs-sections-en"]},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|90","bottom":"var:preset|spacing|0","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0px","bottom":"0px"},"blockGap":"var:preset|spacing|100"}},"layout":{"type":"constrained"}} -->
-<header class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--90);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"metadata":{"name":"Title \u0026 Meta"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|60","padding":{"bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--0)"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|70"}}},"fontSize":"5-x-large"} -->
+<!-- wp:group {"tagName":"header","metadata":{"name":"Homepage Hero","categories":["idocs-sections-en"]},"align":"full","className":"octave-hero","style":{"spacing":{"padding":{"top":"var:preset|spacing|90","bottom":"var:preset|spacing|110","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0px","bottom":"0px"},"blockGap":"var:preset|spacing|100"}},"layout":{"type":"constrained"}} -->
+<header class="wp-block-group alignfull octave-hero" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--90);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--110);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"metadata":{"name":"Title \u0026 Meta"},"align":"wide","className":"octave-hero__container","style":{"spacing":{"blockGap":"var:preset|spacing|60","padding":{"bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide octave-hero__container" style="padding-bottom:var(--wp--preset--spacing--0)"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|70"}}},"fontSize":"5-x-large"} -->
 <h1 class="wp-block-heading has-5-x-large-font-size" style="margin-top:var(--wp--preset--spacing--100);margin-bottom:var(--wp--preset--spacing--70)">I build for the<br>web, and write<br><em>about the journey</em>.</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">I'm Troy Chaplin — a developer in Ottawa working with WordPress, modern frontend, and AI tooling. I ship plugins, block themes, and build-tool experiments, and I write notes from the trenches: what broke, what worked, what I'd do again.</p>
-<!-- /wp:paragraph -->
+<!-- wp:separator {"className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|90"}}}} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" style="margin-top:var(--wp--preset--spacing--100);margin-bottom:var(--wp--preset--spacing--90)"/>
+<!-- /wp:separator -->
 
-<!-- wp:buttons -->
+<!-- wp:group {"metadata":{"name":"Hero"},"className":"octave-hero__content","layout":{"type":"default"}} -->
+<div class="wp-block-group octave-hero__content"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"fontSize":"large"} -->
+<p class="has-large-font-size">I'm Troy Chaplin — a developer in Ottawa working with WordPress, modern frontend, and AI tooling. I ship plugins, block themes, and build-tool experiments, and I write notes about the journey: what broke, what worked, what I'd do again.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Read writings</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">About me</a></div>
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">About me</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:separator {"className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|70"}}}} -->
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" style="margin-top:var(--wp--preset--spacing--100);margin-bottom:var(--wp--preset--spacing--70)"/>
-<!-- /wp:separator --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></header>
 <!-- /wp:group -->
 

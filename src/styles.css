@@ -4,3 +4,6 @@
 
 /* Template Parts */
 @import './css/parts/footer.css';
+
+/* Groups & Sections */
+@import './css/groups/hero.css';
