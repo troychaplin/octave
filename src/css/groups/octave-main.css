@@ -1,0 +1,7 @@
+.octave-main.has-global-padding,
+.wp-block-post-content.has-global-padding {
+    padding-top: var(--wp--preset--spacing--100);
+    padding-right: var(--wp--preset--spacing--50);
+    padding-bottom: var(--wp--preset--spacing--120);
+    padding-left: var(--wp--preset--spacing--50);
+}
