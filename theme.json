@@ -376,27 +376,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/breadcrumbs": {
-				"color": {
-					"text": "var(--wp--preset--color--grey-medium)"
-				},
-				"elements": {
-					"link": {
-						":hover": {
-							"color": {
-								"text": "var(--wp--preset--color--accent)"
-							}
-						},
-						"color": {
-							"text": "var(--wp--preset--color--grey-medium)"
-						}
-					}
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter-tight)",
-					"fontSize": "var(--wp--preset--font-size--x-small)"
-				}
-			},
 			"core/button": {
 				":hover": {
 					"color": {
