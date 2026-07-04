@@ -1,1 +1,1 @@
-.wp-block-image.alignleft+*,.wp-block-image.alignright+*{margin-top:0}
+.wp-block-image img{border-radius:var(--octave--radius-small)}.wp-block-image.is-style-rounded img{border-radius:var(--octave--radius-full)}.wp-block-image.alignleft+*,.wp-block-image.alignright+*{margin-top:0}

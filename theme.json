@@ -564,28 +564,6 @@
 					}
 				}
 			},
-			"core/image": {
-				"border": {
-					"radius": {
-						"bottomLeft": "2px",
-						"bottomRight": "2px",
-						"topLeft": "2px",
-						"topRight": "2px"
-					}
-				},
-				"variations": {
-					"rounded": {
-						"border": {
-							"radius": {
-								"bottomLeft": "500px",
-								"bottomRight": "500px",
-								"topLeft": "500px",
-								"topRight": "500px"
-							}
-						}
-					}
-				}
-			},
 			"core/post-author-name": {
 				"color": {
 					"text": "var(--wp--preset--color--grey-medium)"
@@ -617,16 +595,6 @@
 						"color": {
 							"text": "var(--wp--preset--color--grey-medium)"
 						}
-					}
-				}
-			},
-			"core/post-featured-image": {
-				"border": {
-					"radius": {
-						"bottomLeft": "8px",
-						"bottomRight": "8px",
-						"topLeft": "8px",
-						"topRight": "8px"
 					}
 				}
 			},

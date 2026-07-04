@@ -69,3 +69,10 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* Blog and Archives */
+
+.octave-header--blog .octave-header__container {
+    max-width: var(--octave--width-wide-size);
+    margin: 0 auto;
+}
