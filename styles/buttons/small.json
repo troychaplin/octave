@@ -1,0 +1,13 @@
+{
+    "$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+    "version": 3,
+    "slug": "small",
+    "title": "Small",
+    "blockTypes": ["core/button"],
+    "styles": {
+        "border": {
+            "width": "1px",
+            "style": "solid"
+        }
+    }
+}
