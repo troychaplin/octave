@@ -588,6 +588,12 @@
 					"text": "var(--wp--preset--color--white)"
 				}
 			},
+			"caption": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--2x-small)",
+					"textTransform": "none"
+				}
+			},
 			"h1": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--inter-tight)",
