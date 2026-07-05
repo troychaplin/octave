@@ -6,5 +6,6 @@
 @import './css/parts/footer.css';
 
 /* Groups & Sections */
-@import './css/groups/octave-header.css';
-@import './css/groups/octave-main.css';
+@import './css/globals/octave-header.css';
+@import './css/globals/octave-main.css';
+@import './css/globals/octave-groups.css';

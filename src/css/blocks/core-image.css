@@ -1,26 +1,31 @@
-.wp-block-image img {
+figure.wp-block-image.alignwide {
+    margin-top: var(--wp--preset--spacing--100);
+    margin-bottom: var(--wp--preset--spacing--100);
+}
+
+figure.wp-block-image img {
     border-radius: var(--octave--radius-small);
 }
 
-.wp-block-image.is-style-rounded img {
+figure.wp-block-image.is-style-rounded img {
     border-radius: var(--octave--radius-full);
 }
 
-.wp-block-image.alignright + *,
-.wp-block-image.alignleft + * {
+figure.wp-block-image.alignright + *,
+figure.wp-block-image.alignleft + * {
     margin-top: 0;
 }
 
 /* Image Captions */
 
-.wp-block-image figcaption {
+figure.wp-block-image figcaption {
     font-family: var(--wp--preset--font-family--jetbrains-mono);
     font-size: var(--wp--preset--font-size--2-x-small);
     color: var(--wp--preset--color--grey-dark);
     letter-spacing: 0.08em;
     margin-top: var(--wp--preset--spacing--20);
     background-color: var(--wp--preset--color--white);
-    border-radius: var(--octave--radius-small);
-    margin-top: var(--wp--preset--spacing--40);
-    padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--50);
+    border-bottom-left-radius: var(--octave--radius-small);
+    border-bottom-right-radius: var(--octave--radius-small);
+    padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--50) var(--wp--preset--spacing--40);
 }
