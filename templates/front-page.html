@@ -1,17 +1,17 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"header","metadata":{"name":"Homepage Hero","categories":["idocs-sections-en"]},"align":"full","className":"octave-hero","style":{"spacing":{"padding":{"top":"var:preset|spacing|90","bottom":"var:preset|spacing|110","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0px","bottom":"0px"},"blockGap":"var:preset|spacing|100"}},"layout":{"type":"constrained"}} -->
-<header class="wp-block-group alignfull octave-hero" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--90);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--110);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"metadata":{"name":"Title \u0026 Meta"},"align":"wide","className":"octave-hero__container","style":{"spacing":{"blockGap":"var:preset|spacing|60","padding":{"bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide octave-hero__container" style="padding-bottom:var(--wp--preset--spacing--0)"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|70"}}},"fontSize":"5-x-large"} -->
-<h1 class="wp-block-heading has-5-x-large-font-size" style="margin-top:var(--wp--preset--spacing--100);margin-bottom:var(--wp--preset--spacing--70)">I build for the<br>web, and write<br><em>about the journey</em>.</h1>
+<!-- wp:group {"tagName":"header","metadata":{"name":"Post Header","categories":["idocs-sections-en"]},"align":"full","className":"octave-header octave-header\u002d\u002dhome","layout":{"type":"default"}} -->
+<header class="wp-block-group alignfull octave-header octave-header--home"><!-- wp:group {"metadata":{"name":"Container"},"className":"octave-header__container","layout":{"type":"default"}} -->
+<div class="wp-block-group octave-header__container"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">I build for the<br>web, and write<br><em>about the journey</em>.</h1>
 <!-- /wp:heading -->
 
-<!-- wp:separator {"className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|90"}}}} -->
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" style="margin-top:var(--wp--preset--spacing--100);margin-bottom:var(--wp--preset--spacing--90)"/>
+<!-- wp:separator {"className":"is-style-default"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-default"/>
 <!-- /wp:separator -->
 
-<!-- wp:group {"metadata":{"name":"Hero"},"className":"octave-hero__content","layout":{"type":"default"}} -->
-<div class="wp-block-group octave-hero__content"><!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Columns"},"className":"octave-header__columns","layout":{"type":"default"}} -->
+<div class="wp-block-group octave-header__columns"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"fontSize":"large"} -->
 <p class="has-large-font-size">I'm Troy Chaplin — a developer in Ottawa working with WordPress, modern frontend, and AI tooling. I ship plugins, block themes, and build-tool experiments, and I write notes about the journey: what broke, what worked, what I'd do again.</p>
 <!-- /wp:paragraph --></div>
@@ -30,8 +30,10 @@
 <!-- /wp:group --></header>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|0"}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="padding-right:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"tagName":"section","metadata":{"name":"Latest Posts"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|120","bottom":"var:preset|spacing|120","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:post-content {"tagName":"main","align":"full","className":"octave-main","layout":{"type":"default"}} /-->
+
+<!-- wp:group {"metadata":{"name":"Main","blockVisibility":false},"className":"octave-main","style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group octave-main"><!-- wp:group {"tagName":"section","metadata":{"name":"Latest Posts"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|120","bottom":"var:preset|spacing|120","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--120);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--120);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"align":"wide","style":{"border":{"bottom":{"color":"var:preset|color|black","width":"2px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|70"},"margin":{"bottom":"var:preset|spacing|100"}}}} -->
 <h2 class="wp-block-heading alignwide" style="border-bottom-color:var(--wp--preset--color--black);border-bottom-width:2px;margin-bottom:var(--wp--preset--spacing--100);padding-bottom:var(--wp--preset--spacing--70)">Latest journal notes</h2>
@@ -111,7 +113,7 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>
-<!-- /wp:group --></main>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

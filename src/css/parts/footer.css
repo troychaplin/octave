@@ -1,5 +1,18 @@
+.octave-footer {
+    padding-top: var(--wp--preset--spacing--70);
+    padding-right: var(--wp--preset--spacing--50);
+    padding-bottom: var(--wp--preset--spacing--70);
+    padding-left: var(--wp--preset--spacing--50);
+
+    a {
+        text-decoration: none;
+    }
+}
 
 .footer__container {
+    max-width: var(--octave--width-wide-size);
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     gap: var(--wp--preset--spacing--80);
@@ -9,6 +22,46 @@
     }
 }
 
+/* Disclaimer / Small Print */
+
+.octave-footer--disclaimer {
+    background-color: var(--wp--preset--color--neutral-lighter);
+    border-top: 1px solid var(--wp--preset--color--grey);
+}
+
+.octave-footer--disclaimer p {
+    font-family: var(--wp--preset--font-family--inter-tight);
+    font-size: var(--wp--preset--font-size--x-small);
+    font-weight: 300;
+    color: var(--wp--preset--color--grey-medium);
+
+    a {
+        color: var(--wp--preset--color--accent);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.octave-footer--disclaimer .wp-block-social-links {
+    font-size: var(--wp--preset--font-size--medium);
+    gap: var(--wp--preset--spacing--40);
+}
+
+@media (--below-bp-tablet) {
+    .octave-footer--disclaimer .footer__container {
+        gap: var(--wp--preset--spacing--30);
+        text-align: center;
+    }
+    
+    .octave-footer--disclaimer .wp-block-social-links {
+        margin-top: var(--wp--preset--spacing--30);
+        justify-content: center;
+    }
+}
+
+/*
 .footer__links ul {
     list-style: none;
 }
@@ -28,20 +81,4 @@
 
 .footer__links li:last-child {
     margin-bottom: 0;
-}
-
-.octave-footer--disclaimer a {
-    text-decoration: underline;
-}
-
-@media (--below-bp-tablet) {
-    .octave-footer--disclaimer .footer__container {
-        gap: var(--wp--preset--spacing--30);
-        text-align: center;
-    }
-    
-    .octave-footer--disclaimer .wp-block-social-links {
-        margin-top: var(--wp--preset--spacing--30);
-        justify-content: center;
-    }
-}
+} */

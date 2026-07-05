@@ -1,0 +1,5 @@
+.wp-block-group.is-style-neutral-pale + .wp-block-group.is-style-neutral-pale,
+.wp-block-group.is-style-neutral-lighter + .wp-block-group.is-style-neutral-lighter,
+.wp-block-group.is-style-white + .wp-block-group.is-style-white {
+    padding-top: var(--wp--preset--spacing--80);
+}

@@ -1,21 +1,21 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"header","metadata":{"name":"Post Header","categories":["idocs-sections-en"]},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|120","bottom":"var:preset|spacing|100","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0px","bottom":"0px"},"blockGap":"var:preset|spacing|100"}},"layout":{"type":"constrained"}} -->
-<header class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--120);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--100);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"metadata":{"name":"Title \u0026 Meta"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|60","padding":{"bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--0)"><!-- wp:breadcrumbs {"separator":"//","style":{"typography":{"fontStyle":"italic","fontWeight":"300"}},"fontSize":"x-small","fontFamily":"inter-tight"} /-->
+<!-- wp:group {"tagName":"header","metadata":{"name":"Post Header","categories":["idocs-sections-en"]},"align":"full","className":"octave-header octave-header\u002d\u002dblog","layout":{"type":"default"}} -->
+<header class="wp-block-group alignfull octave-header octave-header--blog"><!-- wp:group {"metadata":{"name":"Container"},"className":"octave-header__container","layout":{"type":"default"}} -->
+<div class="wp-block-group octave-header__container"><!-- wp:breadcrumbs {"separator":" • "} /-->
 
 <!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Notes from the journey.</h1>
 <!-- /wp:heading -->
 
-<!-- wp:separator {"metadata":{"blockVisibility":false},"className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|70"}}}} -->
+<!-- wp:separator {"className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|70"}}}} -->
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-default" style="margin-top:var(--wp--preset--spacing--100);margin-bottom:var(--wp--preset--spacing--70)"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group --></header>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|90","bottom":"var:preset|spacing|120"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="padding-top:var(--wp--preset--spacing--90);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--120);padding-left:var(--wp--preset--spacing--50)"><!-- wp:query {"queryId":20,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"align":"wide"} -->
+<!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"className":"octave-main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group octave-main"><!-- wp:query {"queryId":20,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"align":"wide"} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|90"}}} -->
 <!-- wp:group {"metadata":{"name":"Single Post"},"align":"wide","className":"octave-post","style":{"spacing":{"blockGap":"var:preset|spacing|90","padding":{"bottom":"var:preset|spacing|90"}},"border":{"bottom":{"color":"var:preset|color|grey","width":"1px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide octave-post" style="border-bottom-color:var(--wp--preset--color--grey);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--90)"><!-- wp:group {"metadata":{"name":"Post Meta"},"className":"octave-post__meta","style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"layout":{"type":"default"}} -->
