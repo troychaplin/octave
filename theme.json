@@ -540,6 +540,28 @@
 					}
 				}
 			},
+			"core/image": {
+				"border": {
+					"radius": {
+						"bottomLeft": "2px",
+						"bottomRight": "2px",
+						"topLeft": "2px",
+						"topRight": "2px"
+					}
+				},
+				"variations": {
+					"rounded": {
+						"border": {
+							"radius": {
+								"bottomLeft": "300px",
+								"bottomRight": "300px",
+								"topLeft": "300px",
+								"topRight": "300px"
+							}
+						}
+					}
+				}
+			},
 			"core/post-author-name": {
 				"color": {
 					"text": "var(--wp--preset--color--grey-medium)"
