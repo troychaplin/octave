@@ -596,6 +596,16 @@
 					}
 				}
 			},
+			"core/post-featured-image": {
+				"border": {
+					"radius": {
+						"bottomLeft": "2px",
+						"bottomRight": "2px",
+						"topLeft": "2px",
+						"topRight": "2px"
+					}
+				}
+			},
 			"core/post-terms": {
 				"color": {
 					"text": "var(--wp--preset--color--grey-medium)"
