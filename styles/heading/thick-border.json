@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "slug": "thick-border",
+    "title": "Thick Border",
+    "blockTypes": ["core/heading"],
+    "styles": {
+        "border": {
+            "bottom": {
+                "width": "2px",
+                "style": "solid",
+                "color": "var(--wp--preset--color--black)"
+            }
+        },
+        "spacing": {
+            "margin": {
+                "bottom": "var(--wp--preset--spacing--100)"
+            },
+            "padding": {
+                "bottom": "var(--wp--preset--spacing--70)"
+            }
+        }
+    }
+}
