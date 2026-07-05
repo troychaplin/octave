@@ -1,5 +1,5 @@
 .wp-block-button .wp-block-button__link:hover {
-    background-color: var(--wp--preset--color--accent);
-    border-color: var(--wp--preset--color--accent);
-    color: var(--wp--preset--color--white);
+    background-color: var(--wp--preset--color--primary);
+    border-color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--base);
 }

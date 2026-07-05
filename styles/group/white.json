@@ -15,7 +15,7 @@
             }
         },
         "color": {
-            "background": "var(--wp--preset--color--white)"
+            "background": "var(--wp--preset--color--base)"
         }
     }
 }

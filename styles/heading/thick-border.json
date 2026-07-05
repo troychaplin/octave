@@ -9,7 +9,7 @@
             "bottom": {
                 "width": "2px",
                 "style": "solid",
-                "color": "var(--wp--preset--color--black)"
+                "color": "var(--wp--preset--color--contrast)"
             }
         },
         "spacing": {

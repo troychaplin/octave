@@ -9,8 +9,8 @@
             "fontSize": "var(--wp--preset--font-size--x-small)"
         },
         "color": {
-            "background": "var(--wp--preset--color--primary-light)",
-            "text": "white"
+            "background": "var(--wp--preset--color--neutral-800)",
+            "text": "var(--wp--preset--color--base)"
         },
         "border": {
             "width": "1px",

@@ -25,18 +25,19 @@
 /* Disclaimer / Small Print */
 
 .octave-footer--disclaimer {
-    background-color: var(--wp--preset--color--neutral-lighter);
-    border-top: 1px solid var(--wp--preset--color--grey);
+    background-color: var(--wp--preset--color--neutral-100);
+    border-top: 1px solid var(--wp--preset--color--neutral-400);
 }
 
 .octave-footer--disclaimer p {
     font-family: var(--wp--preset--font-family--inter-tight);
     font-size: var(--wp--preset--font-size--x-small);
     font-weight: 300;
-    color: var(--wp--preset--color--grey-medium);
+    color: var(--wp--preset--color--neutral-800);
 
     a {
-        color: var(--wp--preset--color--accent);
+        font-weight: 400;
+        color: var(--wp--preset--color--primary);
 
         &:hover {
             text-decoration: underline;
@@ -71,7 +72,7 @@
 }
 
 .footer__links li a {
-    color: var(--wp--preset--color--accent);
+    color: var(--wp--preset--color--primary);
     text-decoration: none;
     
     &:hover {

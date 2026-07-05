@@ -13,8 +13,8 @@ figure.wp-block-image.alignleft + * {
 figure.wp-block-image figcaption {
     font-family: var(--wp--preset--font-family--source-serif-4);
     font-size: var(--wp--preset--font-size--small);
-    color: var(--wp--preset--color--grey-dark);
-    background-color: var(--wp--preset--color--white);
+    color: var(--wp--preset--color--neutral-800);
+    background-color: var(--wp--preset--color--base);
     border-bottom-left-radius: var(--octave--radius-small);
     border-bottom-right-radius: var(--octave--radius-small);
     padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--60) var(--wp--preset--spacing--50);

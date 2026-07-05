@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Cool Slate",
+	"settings": {
+		"color": {
+            "palette": [
+                { "color": "#ffffff", "name": "Base", "slug": "base" },
+                { "color": "#f7f8f9", "name": "Neutral 50", "slug": "neutral-50" },
+                { "color": "#eef0f2", "name": "Neutral 100", "slug": "neutral-100" },
+                { "color": "#e2e5e8", "name": "Neutral 200", "slug": "neutral-200" },
+                { "color": "#ced2d7", "name": "Neutral 300", "slug": "neutral-300" },
+                { "color": "#a8afb8", "name": "Neutral 400", "slug": "neutral-400" },
+                { "color": "#8b929c", "name": "Neutral 500", "slug": "neutral-500" },
+                { "color": "#6b7280", "name": "Neutral 600", "slug": "neutral-600" },
+                { "color": "#4a505a", "name": "Neutral 700", "slug": "neutral-700" },
+                { "color": "#2f333a", "name": "Neutral 800", "slug": "neutral-800" },
+                { "color": "#16181b", "name": "Contrast", "slug": "contrast" },
+                { "color": "#a34f3e", "name": "Primary", "slug": "primary" },
+                { "color": "#4a5568", "name": "Secondary", "slug": "secondary" },
+                { "color": "#ffffff66", "name": "Base 40%", "slug": "base-40" },
+                { "color": "#16181b0d", "name": "Contrast 5%", "slug": "contrast-5" }
+            ]
+		}
+	}
+}
