@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "octave/day-tracker",
+  "version": "1.0.0",
+  "title": "Day Tracker",
+  "category": "theme",
+  "icon": "calendar",
+  "description": "Displays the current day number of the year, with an optional formatted date.",
+  "textdomain": "octave",
+  "attributes": {
+    "prefix": {
+      "type": "string",
+      "default": "Day No."
+    },
+    "showDate": {
+      "type": "boolean",
+      "default": false
+    },
+    "dateFormat": {
+      "type": "string",
+      "default": "j M Y"
+    },
+    "separator": {
+      "type": "string",
+      "default": " • "
+    }
+  },
+  "supports": {
+    "html": false,
+    "typography": {
+      "fontSize": true
+    },
+    "color": {
+      "text": true,
+      "background": false
+    },
+    "spacing": {
+      "margin": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

@@ -17,8 +17,6 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 $octave_modules = array(
 	new Octave\Block_Functions(),
 	new Octave\Enqueues(),
-	new Octave\PaginationCount(),
-	new Octave\Day_Tracker(),
 	new Octave\Post_Types(),
 	new Octave\Register_Blocks(),
 );
