@@ -181,6 +181,14 @@
 						{
 							"fontFamily": "\"Inter Tight\"",
 							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/inter-tight/inter-tight-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
 							"fontWeight": "300",
 							"src": [
 								"file:./assets/fonts/inter-tight/inter-tight-300-normal.woff2"
@@ -200,6 +208,14 @@
 							"fontWeight": "600",
 							"src": [
 								"file:./assets/fonts/inter-tight/inter-tight-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/inter-tight/inter-tight-100-italic.woff2"
 							]
 						},
 						{
