@@ -12,6 +12,7 @@ return array(
     'Octave\\Enqueues' => $baseDir . '/classes/class-enqueues.php',
     'Octave\\PaginationCount' => $baseDir . '/classes/class-pagination-count.php',
     'Octave\\Post_Types' => $baseDir . '/classes/class-post-types.php',
+    'Octave\\Register_Blocks' => $baseDir . '/classes/class-register-blocks.php',
     'PHPCSUtils\\AbstractSniffs\\AbstractArrayDeclarationSniff' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/AbstractSniffs/AbstractArrayDeclarationSniff.php',
     'PHPCSUtils\\BackCompat\\BCFile' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/BackCompat/BCFile.php',
     'PHPCSUtils\\BackCompat\\BCTokens' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/BackCompat/BCTokens.php',

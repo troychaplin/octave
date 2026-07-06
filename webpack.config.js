@@ -14,4 +14,9 @@ export default {
 		...defaultConfig.output,
 		path: resolve( __dirname, 'assets/js' ),
 	},
+	// Blocks are built separately via webpack.blocks.config.js; drop the default
+	// CopyWebpackPlugin so src/**/block.json files are not copied into assets/js.
+	plugins: defaultConfig.plugins.filter(
+		( plugin ) => plugin.constructor.name !== 'CopyPlugin'
+	),
 };

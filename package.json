@@ -4,14 +4,16 @@
   "scripts": {
     "build:css": "postcss src/styles.css -o assets/css/styles.css",
     "build:editor": "postcss src/editor.css -o assets/css/editor.css",
-    "build:blocks": "postcss src/css/blocks/*.css --dir assets/css/blocks",
+    "build:block-styles": "postcss src/css/blocks/*.css --dir assets/css/blocks",
     "build:js": "wp-scripts build",
+    "build:blocks": "wp-scripts build --config webpack.blocks.config.js --source-path=src/blocks --webpack-copy-php --blocks-manifest",
     "build": "pnpm run clean && pnpm run --parallel /^build:/",
-    "clean": "rm -rf assets/css && rm -rf assets/js",
+    "clean": "rm -rf assets/css assets/js assets/blocks",
     "start:css": "postcss src/styles.css -o assets/css/styles.css --watch",
     "start:editor": "postcss src/editor.css -o assets/css/editor.css --watch",
-    "start:blocks": "postcss src/css/blocks/*.css --dir assets/css/blocks --watch",
+    "start:block-styles": "postcss src/css/blocks/*.css --dir assets/css/blocks --watch",
     "start:js": "wp-scripts start",
+    "start:blocks": "wp-scripts start --config webpack.blocks.config.js --source-path=src/blocks --webpack-copy-php --blocks-manifest",
     "start": "pnpm run --parallel /^start:/"
   },
   "devDependencies": {

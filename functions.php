@@ -20,6 +20,7 @@ $octave_modules = array(
 	new Octave\PaginationCount(),
 	new Octave\Day_Tracker(),
 	new Octave\Post_Types(),
+	new Octave\Register_Blocks(),
 );
 
 foreach ( $octave_modules as $octave_module ) {

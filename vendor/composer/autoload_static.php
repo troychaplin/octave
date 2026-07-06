@@ -27,6 +27,7 @@ class ComposerStaticInit54421d75c2c79028332951ea18376abd
         'Octave\\Enqueues' => __DIR__ . '/../..' . '/classes/class-enqueues.php',
         'Octave\\PaginationCount' => __DIR__ . '/../..' . '/classes/class-pagination-count.php',
         'Octave\\Post_Types' => __DIR__ . '/../..' . '/classes/class-post-types.php',
+        'Octave\\Register_Blocks' => __DIR__ . '/../..' . '/classes/class-register-blocks.php',
         'PHPCSUtils\\AbstractSniffs\\AbstractArrayDeclarationSniff' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/AbstractSniffs/AbstractArrayDeclarationSniff.php',
         'PHPCSUtils\\BackCompat\\BCFile' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/BackCompat/BCFile.php',
         'PHPCSUtils\\BackCompat\\BCTokens' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/BackCompat/BCTokens.php',
