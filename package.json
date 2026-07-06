@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@10.34.2",
   "scripts": {
     "build:css": "postcss src/styles.css -o assets/css/styles.css",
     "build:editor": "postcss src/editor.css -o assets/css/editor.css",
