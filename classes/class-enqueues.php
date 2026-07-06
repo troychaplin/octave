@@ -56,15 +56,15 @@ class Enqueues {
 	 * Enqueue the frontend script when it exists.
 	 */
 	public function enqueue_scripts(): void {
-		$path    = get_theme_file_path( 'assets/js/script.js' );
-		$version = file_exists( $path ) ? filemtime( $path ) : wp_get_theme()->get( 'Version' );
+		$asset_file = get_theme_file_path( 'assets/js/script.asset.php' );
 
-		if ( file_exists( $path ) ) {
+		if ( file_exists( $asset_file ) ) {
+			$asset = require $asset_file;
 			wp_enqueue_script(
 				'octave-script',
 				get_theme_file_uri( 'assets/js/script.js' ),
-				array(),
-				$version,
+				$asset['dependencies'],
+				$asset['version'],
 				true
 			);
 		}
@@ -98,15 +98,15 @@ class Enqueues {
 	 * Enqueue block editor scripts.
 	 */
 	public function enqueue_block_scripts(): void {
-		$path    = get_theme_file_path( 'assets/js/editor.js' );
-		$version = file_exists( $path ) ? filemtime( $path ) : wp_get_theme()->get( 'Version' );
+		$asset_file = get_theme_file_path( 'assets/js/editor.asset.php' );
 
-		if ( file_exists( $path ) ) {
+		if ( file_exists( $asset_file ) ) {
+			$asset = require $asset_file;
 			wp_enqueue_script(
 				'octave-editor',
 				get_theme_file_uri( 'assets/js/editor.js' ),
-				array( 'wp-blocks', 'wp-dom-ready', 'wp-element', 'wp-server-side-render' ),
-				$version,
+				$asset['dependencies'],
+				$asset['version'],
 				true
 			);
 		}

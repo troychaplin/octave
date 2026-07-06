@@ -1,1 +1,1 @@
-// import './js/addJavascript';
+import './editor/format.js';

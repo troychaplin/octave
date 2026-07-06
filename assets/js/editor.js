@@ -1,1 +1,1 @@
-(()=>{})();
+(()=>{"use strict";const t=window.wp.richText,i=window.wp.blockEditor,e=window.ReactJSXRuntime,o="octave/thin-font";(0,t.registerFormatType)(o,{title:"Thin Font",tagName:"span",className:"has-thin-font",edit:({isActive:n,onChange:a,value:c})=>(0,e.jsx)(i.RichTextToolbarButton,{icon:"editor-italic",title:"Thin Font",isActive:n,onClick:()=>a((0,t.toggleFormat)(c,{type:o}))})})})();
