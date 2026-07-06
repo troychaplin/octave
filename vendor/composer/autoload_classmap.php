@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Octave\\Block_Functions' => $baseDir . '/classes/class-block-functions.php',
+    'Octave\\Day_Tracker' => $baseDir . '/classes/class-day-tracker.php',
     'Octave\\Enqueues' => $baseDir . '/classes/class-enqueues.php',
     'Octave\\PaginationCount' => $baseDir . '/classes/class-pagination-count.php',
     'Octave\\Post_Types' => $baseDir . '/classes/class-post-types.php',

@@ -18,6 +18,7 @@ $octave_modules = array(
 	new Octave\Block_Functions(),
 	new Octave\Enqueues(),
 	new Octave\PaginationCount(),
+	new Octave\Day_Tracker(),
 	new Octave\Post_Types(),
 );
 
