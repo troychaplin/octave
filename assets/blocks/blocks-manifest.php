@@ -63,9 +63,19 @@ return array(
 			'query'
 		),
 		'attributes' => array(
-			'format' => array(
+			'prefix' => array(
 				'type' => 'string',
-				'default' => 'Page %1$s of %2$s'
+				'default' => 'Page'
+			),
+			'numberFormat' => array(
+				'type' => 'string',
+				'enum' => array(
+					'of',
+					'slash',
+					'slash-spaced',
+					'dash'
+				),
+				'default' => 'of'
 			)
 		),
 		'supports' => array(

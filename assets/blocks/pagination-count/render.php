@@ -31,9 +31,15 @@ if ( $max_pages < 2 ) {
 	return;
 }
 
-$format = isset( $attributes['format'] ) && '' !== $attributes['format']
-	? $attributes['format']
-	/* translators: 1: current page number, 2: total number of pages. */
-	: __( 'Page %1$s of %2$s', 'octave' );
+$separators = array(
+	'of'           => ' ' . __( 'of', 'octave' ) . ' ',
+	'slash'        => '/',
+	'slash-spaced' => ' / ',
+	'dash'         => ' – ',
+);
+
+$separator = $separators[ $attributes['numberFormat'] ?? 'of' ] ?? $separators['of'];
+$prefix    = $attributes['prefix'] ?? __( 'Page', 'octave' );
+$text      = ( '' !== $prefix ? $prefix . ' ' : '' ) . $current_page . $separator . $max_pages;
 ?>
-<span <?php echo get_block_wrapper_attributes(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>><?php printf( esc_html( $format ), $current_page, $max_pages ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></span>
+<span <?php echo get_block_wrapper_attributes(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>><?php echo esc_html( $text ); ?></span>

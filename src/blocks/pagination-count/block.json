@@ -11,9 +11,14 @@
 	"ancestor": [ "core/query" ],
 	"usesContext": [ "queryId", "query" ],
 	"attributes": {
-		"format": {
+		"prefix": {
 			"type": "string",
-			"default": "Page %1$s of %2$s"
+			"default": "Page"
+		},
+		"numberFormat": {
+			"type": "string",
+			"enum": [ "of", "slash", "slash-spaced", "dash" ],
+			"default": "of"
 		}
 	},
 	"supports": {
