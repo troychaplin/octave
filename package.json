@@ -1,32 +1,32 @@
 {
-  "type": "module",
-  "packageManager": "pnpm@10.34.2",
-  "scripts": {
-    "build:css": "postcss src/styles.css -o assets/css/styles.css",
-    "build:editor": "postcss src/editor.css -o assets/css/editor.css",
-    "build:block-styles": "postcss src/css/blocks/*.css --dir assets/css/blocks",
-    "build:js": "wp-scripts build",
-    "build:blocks": "wp-scripts build --config webpack.blocks.config.js --source-path=src/blocks --webpack-copy-php --blocks-manifest",
-    "build": "pnpm run clean && pnpm run --parallel /^build:/",
-    "clean": "rm -rf assets/css assets/js assets/blocks",
-    "start:css": "postcss src/styles.css -o assets/css/styles.css --watch",
-    "start:editor": "postcss src/editor.css -o assets/css/editor.css --watch",
-    "start:block-styles": "postcss src/css/blocks/*.css --dir assets/css/blocks --watch",
-    "start:js": "wp-scripts start",
-    "start:blocks": "wp-scripts start --config webpack.blocks.config.js --source-path=src/blocks --webpack-copy-php --blocks-manifest",
-    "start": "pnpm run --parallel /^start:/"
-  },
-  "devDependencies": {
-    "@csstools/postcss-global-data": "^4.0.0",
-    "@fontsource-variable/inter-tight": "^5.2.7",
-    "@fontsource-variable/jetbrains-mono": "^5.2.8",
-    "@fontsource-variable/source-serif-4": "^5.2.9",
-    "@wordpress/scripts": "^30.0.0",
-    "cssnano": "^7.1.7",
-    "postcss": "^8.5.10",
-    "postcss-cli": "^11.0.1",
-    "postcss-custom-media": "^12.0.1",
-    "postcss-import": "^16.1.1",
-    "postcss-nested": "^7.0.2"
-  }
+    "type": "module",
+    "packageManager": "pnpm@10.34.2",
+    "scripts": {
+        "build:css": "postcss src/styles.css -o assets/css/styles.css",
+        "build:editor": "postcss src/editor.css -o assets/css/editor.css",
+        "build:block-styles": "postcss src/css/blocks/*.css --dir assets/css/blocks",
+        "build:js": "wp-scripts build",
+        "build:blocks": "wp-scripts build --config webpack.blocks.config.js --source-path=src/blocks --webpack-copy-php --blocks-manifest",
+        "build": "pnpm run clean && pnpm run --parallel /^build:/",
+        "clean": "rm -rf assets/css assets/js assets/blocks",
+        "start:css": "postcss src/styles.css -o assets/css/styles.css --watch",
+        "start:editor": "postcss src/editor.css -o assets/css/editor.css --watch",
+        "start:block-styles": "postcss src/css/blocks/*.css --dir assets/css/blocks --watch",
+        "start:js": "wp-scripts start",
+        "start:blocks": "wp-scripts start --config webpack.blocks.config.js --source-path=src/blocks --webpack-copy-php --blocks-manifest",
+        "start": "pnpm run --parallel /^start:/"
+    },
+    "devDependencies": {
+        "@csstools/postcss-global-data": "^4.0.0",
+        "@fontsource-variable/inter-tight": "^5.2.7",
+        "@fontsource-variable/jetbrains-mono": "^5.2.8",
+        "@fontsource-variable/source-serif-4": "^5.2.9",
+        "@wordpress/scripts": "^30.0.0",
+        "cssnano": "^7.1.7",
+        "postcss": "^8.5.10",
+        "postcss-cli": "^11.0.1",
+        "postcss-custom-media": "^12.0.1",
+        "postcss-import": "^16.1.1",
+        "postcss-nested": "^7.0.2"
+    }
 }
