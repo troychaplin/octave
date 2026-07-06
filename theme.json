@@ -1,5 +1,5 @@
 {
-	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
 	"version": 3,
 	"customTemplates": [
 		{
@@ -178,125 +178,57 @@
 			"fontFamilies": [
 				{
 					"fontFace": [
-						{
-							"fontFamily": "\"Inter Tight\"",
-							"fontStyle": "normal",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/inter-tight/inter-tight-100-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Inter Tight\"",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/inter-tight/inter-tight-300-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Inter Tight\"",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/inter-tight/inter-tight-400-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Inter Tight\"",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/inter-tight/inter-tight-600-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Inter Tight\"",
-							"fontStyle": "italic",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/inter-tight/inter-tight-100-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Inter Tight\"",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/inter-tight/inter-tight-300-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Inter Tight\"",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/inter-tight/inter-tight-400-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Inter Tight\"",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/inter-tight/inter-tight-600-italic.woff2"
-							]
-						}
-					],
+                        {
+                            "fontFamily": "\"Inter Tight\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": ["file:./assets/fonts/inter-tight/inter-tight-variable-normal.woff2"]
+                        },
+                        {
+                            "fontFamily": "\"Inter Tight\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
+                            "src": ["file:./assets/fonts/inter-tight/inter-tight-variable-italic.woff2"]
+                        }
+                    ],
 					"fontFamily": "\"Inter Tight\", sans-serif",
 					"name": "Inter Tight",
 					"slug": "inter-tight"
 				},
 				{
 					"fontFace": [
-						{
-							"fontFamily": "\"Source Serif 4\"",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/source-serif-4/source-serif-4-300-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Source Serif 4\"",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/source-serif-4/source-serif-4-600-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Source Serif 4\"",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/source-serif-4/source-serif-4-300-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Source Serif 4\"",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/source-serif-4/source-serif-4-600-italic.woff2"
-							]
-						}
-					],
+                        {
+                            "fontFamily": "\"Source Serif 4\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": ["file:./assets/fonts/source-serif-4/source-serif-4-variable-normal.woff2"]
+                        },
+                        {
+                            "fontFamily": "\"Source Serif 4\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 900",
+                            "src": ["file:./assets/fonts/source-serif-4/source-serif-4-variable-italic.woff2"]
+                        }
+                    ],
 					"fontFamily": "\"Source Serif 4\", serif",
 					"name": "Source Serif 4",
 					"slug": "source-serif-4"
 				},
 				{
 					"fontFace": [
-						{
-							"fontFamily": "\"JetBrains Mono\"",
-							"fontStyle": "normal",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/jetbrains-mono/jetbrains-mono-200-normal.woff2"
-							]
-						}
-					],
+                        {
+                            "fontFamily": "\"JetBrains Mono\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 800",
+                            "src": ["file:./assets/fonts/jetbrains-mono/jetbrains-mono-variable-normal.woff2"]
+                        },
+                        {
+                            "fontFamily": "\"JetBrains Mono\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "100 800",
+                            "src": ["file:./assets/fonts/jetbrains-mono/jetbrains-mono-variable-italic.woff2"]
+                        }
+                    ],
 					"fontFamily": "\"JetBrains Mono\", monospace",
 					"name": "JetBrains Mono",
 					"slug": "jetbrains-mono"
@@ -877,6 +809,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--inter-tight)",
 					"fontStyle": "normal",
+					"fontWeight": "400",
 					"letterSpacing": "0px"
 				}
 			},
