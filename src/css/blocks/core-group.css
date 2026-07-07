@@ -8,6 +8,14 @@
     margin-block-start: 0;
 }
 
+:not(.wp-block-group.alignfull[class*="is-style-"]) + .wp-block-group.alignfull[class*="is-style-"] {
+    margin-block-start: var(--wp--preset--spacing--100);
+}
+
+.wp-block-group.alignfull[class*="is-style-"] + :not(.wp-block-group.alignfull[class*="is-style-"]) {
+    margin-block-start: var(--wp--preset--spacing--100);
+}
+
 .octave-content .wp-block-group.alignfull.is-style-neutral-50:first-child {
     padding-top: var(--wp--preset--spacing--80);
 }
