@@ -1,22 +1,10 @@
 {
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 3,
-    "slug": "neutral-lighter",
-    "title": "Neutral Lighter",
+    "slug": "neutral-950",
+    "title": "Neutral Darkest",
     "blockTypes": ["core/group"],
     "styles": {
-        "border": {
-            "top": {
-                "width": "1px",
-                "style": "solid",
-                "color": "var(--wp--preset--color--neutral-300)"
-            },
-            "bottom": {
-                "width": "1px",
-                "style": "solid",
-                "color": "var(--wp--preset--color--neutral-300)"
-            }
-        },
         "spacing": {
             "blockGap": "var(--wp--preset--spacing--50)",
             "padding": {
@@ -27,7 +15,7 @@
             }
         },
         "color": {
-            "background": "var(--wp--preset--color--neutral-100)"
+            "background": "var(--wp--preset--color--neutral-950)"
         }
     }
 }

@@ -87,7 +87,7 @@
 }
 
 .octave-header--home {
-    padding-bottom: var(--wp--preset--spacing--100);
+    padding-bottom: var(--wp--preset--spacing--120);
 }
 
 .octave-header--home h1 {

@@ -1,3 +1,6 @@
 .has-thin-font {
+    font-family: var(--wp--preset--font-family--source-serif-4);
     font-weight: 200;
+    font-style: italic;
+    color: var(--wp--preset--color--neutral-700);
 }
